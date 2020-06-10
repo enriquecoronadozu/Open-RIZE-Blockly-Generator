@@ -1,0 +1,8 @@
+{
+    "primitive": "Walk towards",
+    "type": "output",
+    "description": "Walk towards people or a red ball",
+    "input": "dropdown",
+    "input_options":["People", "RedBall", "None"],
+    "options":{"LeftArm":"bool","RightArm":"bool"}
+}

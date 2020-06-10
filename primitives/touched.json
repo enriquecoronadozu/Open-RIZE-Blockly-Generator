@@ -1,0 +1,7 @@
+{
+    "primitive": "Touched",
+    "type": "input",
+    "description": "Is robot touched",
+    "input": "dropdown",
+    "input_options":["head", "right_hand", "left_hand"]
+}

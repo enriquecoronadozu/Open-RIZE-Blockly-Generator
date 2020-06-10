@@ -1,0 +1,7 @@
+{
+    "primitive": "Emotion",
+    "type": "input",
+    "description": "Some emotion",
+    "input": "dropdown",
+    "input_options":["happy", "angry", "sad", "surprised", "neutral"]
+}

@@ -1,0 +1,8 @@
+{
+    "primitive": "Open hand",
+    "type": "output",
+    "description": "Open robot's hands",
+    "input": "dropdown",
+    "input_options":["both", "right", "left"]
+}
+

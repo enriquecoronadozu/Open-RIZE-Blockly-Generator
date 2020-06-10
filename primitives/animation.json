@@ -1,0 +1,7 @@
+{
+    "primitive": "Animation",
+    "type": "output",
+    "description": "Perform an animation",
+    "input": "dropdown",
+    "options":{"time":"seconds","flip":"bool","reverse":"bool"}
+}

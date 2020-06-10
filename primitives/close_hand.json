@@ -1,0 +1,8 @@
+{
+    "primitive": "Close hand",
+    "type": "output",
+    "description": "Close robot's hand",
+    "input": "dropdown",
+    "input_options":["both", "right", "left"]
+}
+

@@ -1,0 +1,6 @@
+{
+    "primitive": "Object detected",
+    "type": "input",
+    "description": "Object detected",
+    "input": "string"
+}

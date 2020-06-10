@@ -1,0 +1,6 @@
+{
+    "primitive": "Wait (seconds)",
+    "type": "output",
+    "description": "Wait some seconds",
+    "input": "seconds"
+}

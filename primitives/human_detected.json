@@ -1,0 +1,7 @@
+{
+    "primitive": "Human detected (camera)",
+    "type": "input",
+    "description": "Is human detected with the camera?",
+    "input": "dropdown",
+    "input_options":["yes", "no"]
+}

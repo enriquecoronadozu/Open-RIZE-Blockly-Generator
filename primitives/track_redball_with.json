@@ -1,0 +1,8 @@
+{
+    "primitive": "Track red ball with",
+    "type": "output",
+    "description": "Track red objects",
+    "input": "dropdown",
+    "input_options":["WholeBody", "Head", "None"],
+    "options":{"LeftArm":"bool","RightArm":"bool"}
+}

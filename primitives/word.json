@@ -1,0 +1,7 @@
+{
+    "primitive": "Word",
+    "type": "input",
+    "description": "Listen human speech and detect word",
+    "input": "string"
+}
+

@@ -1,0 +1,8 @@
+{
+    "primitive": "Take photo with camera on",
+    "type": "output",
+    "description": "Take and show a photo",
+    "input": "dropdown",
+    "input_options":["Top", "Bottom"]
+}
+

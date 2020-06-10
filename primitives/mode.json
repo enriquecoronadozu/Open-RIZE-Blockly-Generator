@@ -1,0 +1,7 @@
+{
+    "primitive": "Mode (Wake up/ Rest)",
+    "type": "output",
+    "description": "Wake or rest the robot",
+    "input": "dropdown",
+    "input_options":["wake_up", "rest"]
+}

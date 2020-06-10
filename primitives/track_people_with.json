@@ -1,0 +1,8 @@
+{
+    "primitive": "Track people with",
+    "type": "output",
+    "description": "Track human",
+    "input": "dropdown",
+    "input_options":["WholeBody", "Head", "None"],
+    "options":{"LeftArm":"bool","RightArm":"bool"}
+}
