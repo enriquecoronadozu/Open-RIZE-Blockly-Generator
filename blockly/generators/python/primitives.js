@@ -82,6 +82,14 @@ var code  = '{"primitive":"track_redball_with"'+","+ '"input":' + '"' + text + '
 return [code, Blockly.Python.ORDER_NONE];
 };
 
+Blockly.Python['track_sound_with'] = function(block) {
+var text = block.getFieldValue('inp_1');
+var options_dic = block.getFieldValue('inp_2');
+options_dic = rizeBlockly.formatOptions(options_dic) 
+var code  = '{"primitive":"track_sound_with"'+","+ '"input":' + '"' + text + '"'+","+'"options":' + options_dic + '}';
+return [code, Blockly.Python.ORDER_NONE];
+};
+
 Blockly.Python['turn'] = function(block) {
 var text = block.getFieldValue('inp_1');
 var options_dic = block.getFieldValue('inp_2');

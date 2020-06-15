@@ -7,6 +7,7 @@ toolbox +='    <block type="say"></block>';
 toolbox +='    <block type="take_photo"></block>';
 toolbox +='    <block type="track_people_with"></block>';
 toolbox +='    <block type="track_redball_with"></block>';
+toolbox +='    <block type="track_sound_with"></block>';
 toolbox +='    <block type="turn"></block>';
 toolbox +='    <block type="wait"></block>';
 toolbox +='    <block type="walk"></block>';

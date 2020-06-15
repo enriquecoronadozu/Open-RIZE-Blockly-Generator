@@ -166,6 +166,21 @@ init: function() {
  	this.setHelpUrl("");
 }};
 
+Blockly.Blocks["track_sound_with"] = {
+init: function() {
+	this.appendDummyInput()
+		.appendField("Track sound with")
+		.appendField(new Blockly.FieldTextInput("edit"), "inp_1")
+		.appendField(" options")
+		.appendField(new Blockly.FieldTextInput("edit"), "inp_2")
+		.appendField(new Blockly.FieldImage(configuration_image, 16, 16, "*", edit_primitive))		;
+	this.setColour("#2196f3");
+	this.setOutput(true,['action']);
+
+	this.setTooltip("Track sound sources");
+ 	this.setHelpUrl("");
+}};
+
 Blockly.Blocks["turn"] = {
 init: function() {
 	this.appendDummyInput()

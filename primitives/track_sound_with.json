@@ -1,0 +1,8 @@
+{
+    "primitive": "Track sound with",
+    "type": "output",
+    "description": "Track sound sources",
+    "input": "dropdown",
+    "input_options":["WholeBody", "Head", "None"],
+    "options":{"LeftArm":"bool","RightArm":"bool"}
+}

@@ -133,6 +133,21 @@
         "primitive":"Track red ball with",
         "type":"output"
     },
+    "track_sound_with":{
+        "description":"Track sound sources",
+        "input":"dropdown",
+        "input_options":[
+            "WholeBody",
+            "Head",
+            "None"
+        ],
+        "options":{
+            "LeftArm":"bool",
+            "RightArm":"bool"
+        },
+        "primitive":"Track sound with",
+        "type":"output"
+    },
     "turn":{
         "description":"Turn robot body",
         "input":"dropdown",
