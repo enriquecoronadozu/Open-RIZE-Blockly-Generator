@@ -13,9 +13,10 @@ Use _ instead of space.
 
 ## Step 2.- Generate code for Google Blockly 
 
-- run **1.0 create.py** (this script transform JSON files to specification for Google Blockly)
-- run **blockly/2.-build.py** (this script send generated files to the Google Blockly server and download the needed JavaScript code for executing Google Blockly environments)
-- run **3.- files2developer.py** (this script copy and paste the needed files required to run Google Blockly to "/developer" folder)
+- run **1.- create.py** (this script transform JSON files to specification for Google Blockly)
+- run **2.- files2developer.py** (this script copy and paste the needed files required to run Google Blockly to "/developer" folder)
+
+## Step 3.- Copy and paste content of developer folder to RIZE/developer
 
 # Format to generate new blocks (primitives)
 
