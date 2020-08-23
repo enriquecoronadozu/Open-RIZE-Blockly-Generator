@@ -1,5 +1,8 @@
 # RIZE-Blockly-Generator
+
 A generator of Google Blockly environments for RIZE
+
+Note: This tutorial only works using *rize > 0.1.3.9* in *python*. Use **pip install -U rize** to update rize
 
 # How to compile and add new blocks:
 
@@ -13,10 +16,31 @@ Use _ instead of space.
 
 ## Step 2.- Generate code for Google Blockly 
 
-- run **1.- create.py** (this script transform JSON files to specification for Google Blockly)
-- run **2.- files2developer.py** (this script copy and paste the needed files required to run Google Blockly to "/developer" folder)
+Run **create.py**  to transform JSON files (difined primitives) to Google Blockly code
 
-## Step 3.- Copy and paste content of developer folder to RIZE/developer
+## Step 3.- Copy and paste files from RIZE-Blockly-Generator/developer to Open-RIZE-beta/developer
+
+Generated files in Rize-Blockly-Generator/developer:
+
+```
+blockly_dynamic/primitives_blocks.js
+blockly_dynamic/primitives_generators.js
+databases/primitives.json
+```
+
+Open-RIZE-beta/developer must have:
+
+```
+blockly_dynamic/behaviors_blocks.js
+blockly_dynamic/behaviors_generators.js
+blockly_dynamic/primitives_blocks.js
+blockly_dynamic/primitives_generators.js
+databases/primitives.json
+settings.json
+toolbox.js
+workspace.js
+```
+Don't delete behaviors_blocks.js, behaviors_generators.js, settings.json and workspace.js
 
 # Format to generate new blocks (primitives)
 
