@@ -63,7 +63,7 @@ Avaliable options for **"input"**
 
 When used "dropdown" you need to add and additional key in the JSON file denoted as "input_options", that will define the available options that users can select
 
-Example for object detected
+Example: object detected
 
 ```javascript
 {
@@ -75,7 +75,7 @@ Example for object detected
 }
 ```
 
-Example for emotion
+Example: emotion
 
 ```javascript
 {
@@ -97,7 +97,7 @@ Is basically composed of 5 compulsory keys and 1 optional key:
 - **"options"**: This is the option key which can be composed of several keys for the parametrization of the action
 
 
-Example for say
+Example: say
 
 ```javascript
 {
@@ -111,7 +111,7 @@ Example for say
 
 When used "dropdown" you need to add and additional key in the JSON file denoted as "input_options", that will define the available options that users can select
 
-Example for track people
+Example: tracking people
 ```javascript
 {
     "primitive": "Track people with",
