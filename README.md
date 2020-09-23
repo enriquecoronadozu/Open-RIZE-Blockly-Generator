@@ -42,7 +42,7 @@ workspace.js
 ```
 Don't delete behaviors_blocks.js, behaviors_generators.js, settings.json and workspace.js
 
-# Format to generate new blocks (primitives)
+# Guidelines to generate new blocks (primitives)
 
 Basic nodes that can be generated are two types:
 
