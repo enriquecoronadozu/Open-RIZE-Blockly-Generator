@@ -44,7 +44,7 @@ Don't delete behaviors_blocks.js, behaviors_generators.js, settings.json and wor
 
 # Guidelines to generate new blocks (primitives)
 
-Basic nodes that can be generated are two types:
+Basic social skills that can be generated are two types:
 
 - Condition/Events = **inputs**
 - Actions = **outputs**
