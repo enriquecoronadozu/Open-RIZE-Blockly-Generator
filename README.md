@@ -1,4 +1,4 @@
-# RIZE-Blockly-Generator
+# Open-RIZE-Blockly-Generator
 
 A generator of Google Blockly environments for RIZE
 
