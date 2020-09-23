@@ -4,7 +4,7 @@ A generator of Google Blockly environments for RIZE
 
 Note: This tutorial only works using *rize > 0.1.3.9* in *python*. Use **pip install -U rize** to update rize
 
-# How to compile and add new blocks:
+# How to compile and add new social skills as Google Blockly elements:
 
 ## Step 1.-  Define new blocks 
 
@@ -42,7 +42,7 @@ workspace.js
 ```
 Don't delete behaviors_blocks.js, behaviors_generators.js, settings.json and workspace.js
 
-# Guidelines to generate new blocks (primitives)
+# Guidelines to generate new blocks (social skills/primitives)
 
 Basic social skills that can be generated are two types:
 
